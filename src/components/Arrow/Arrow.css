@@ -1,0 +1,136 @@
+#pg2_down {
+    margin: -5px 40%;
+    background: transparent;
+    width: 17%;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.arrows{
+    height: 104px;
+    margin: 19px 0px;
+    /* border: 2px solid; */
+}
+
+#arrow1{
+    margin: -25px auto;
+}
+
+#arrow2{
+    margin: -25px auto;
+}
+
+#arrow3{
+    margin: -25px auto;
+}
+
+#arrow1, #arrow2, #arrow3 {
+    /* padding: -6px 0px; */
+    /* border: 2px solid; */
+    height: 8px;
+    margin: 2px auto;
+}
+
+
+#arr1-1 {
+    background-color: black;
+    width: 8px;
+    height: 120px;
+    margin: 0px 48px;
+    /* border: 2px solid; */
+    transform: rotate(-63deg);
+    animation: arr1 1s   infinite  ease-out;
+
+}
+
+#arr1-2 {
+    background-color: black;
+    width: 8px;
+    height: 120px;
+    margin: 0px 48px;
+    /* border: 2px solid; */
+    transform: rotate(63deg);
+    animation: arr1 1s   infinite  ease-out;
+
+}
+#arr2-1 {
+    background-color: black;
+    width: 8px;
+    height: 120px;
+    margin: 0px 48px;
+    /* border: 2px solid; */
+    transform: rotate(-63deg);
+    animation: arr2 1s   infinite  ease-out;
+
+}
+
+#arr2-2 {
+    background-color: black;
+    width: 8px;
+    height: 120px;
+    margin: 0px 48px;
+    /* border: 2px solid; */
+    transform: rotate(63deg);
+    animation: arr2 1s   infinite  ease-out;
+
+}
+
+#arr3-1 {
+    background-color: black;
+    width: 8px;
+    height: 120px;
+    margin: 0px 48px;
+    /* border: 2px solid; */
+    transform: rotate(-63deg);
+    animation: arr3 1s   infinite  ease-out;
+
+}
+
+#arr3-2 {
+    background-color: black;
+    width: 8px;
+    height: 120px;
+    margin: 0px 48px;
+    /* border: 2px solid; */
+    transform: rotate(63deg);
+    animation: arr3 1s   infinite  ease-out;
+
+}
+
+
+
+@keyframes arr1 {
+    0%{
+        background-color: #999;
+    }
+    50%{
+        background-color: #222;
+    }
+    100%{
+        background-color: #222;
+    }
+}
+@keyframes arr2 {
+    0%{
+        background-color: #222;
+    }
+    50%{
+        background-color: #999;
+    }
+    100%{
+        background-color: #222;
+    }
+    
+}
+@keyframes arr3 {
+    0%{
+        background-color: #222;
+    }
+    50%{
+        background-color: #222;
+    }
+    100%{
+        background-color: #999;
+    }
+}

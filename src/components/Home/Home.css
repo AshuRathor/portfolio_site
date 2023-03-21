@@ -1,0 +1,278 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: #222;
+    /* background-color: blue; */
+    /* background-image: url(''); */
+}
+.skills{
+    /* padding: 11px 62px; */
+    background-color: #222;
+    color: white;
+    transition: all 0.15s ease-in;
+    border: none;
+}
+
+.hobbies{
+    border: 3px solid #222;
+    color: #222;
+    /* padding: 11px 50px; */
+    transition: all 0.15s ease-in;
+
+}
+
+.skills:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 2px 4px #222;
+
+}
+
+.hobbies:hover{
+    background-color: #222;
+    color: white;
+}
+.page1::before{
+    background: url('./img/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#prf {
+    padding: 15% 0% 0% 10%;
+    height: 20em;
+    transition: all 0.2s ease-out;
+}
+
+#prf:hover{
+    transform-origin: center;
+    transform: scale(1.1);
+}
+
+
+.page1_para {
+    /* width: 40%; */
+    font-size: 1.4em;
+    margin: 10% 0% 0% 7%;
+    font-weight: 600;
+    border-left: 6px solid #222;
+    padding-left: 1%;
+}
+.paraDiv{
+    width: 47%;
+    padding: 12% 0% 0% 5%;
+}
+.layer1-2{
+    margin: 3% 10%;
+    flex-wrap: wrap;
+}
+
+.layer1btn{
+    padding: 1.6% 9%;
+    margin: 0% 2%;
+    font-weight: 700;
+    cursor: pointer;
+}
+.layer1{
+    flex-wrap: wrap-reverse;
+}
+
+.skl_btn, .hby_btn{
+    margin: 8%;
+    width: 23%;
+    flex-wrap: wrap;
+}
+.hobbies, .skills{
+    padding: 8% 45%;
+}
+
+
+#l1::after {
+    background-color: #222;
+    border-radius: 2px;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    content: "";
+    margin: 23px -71px;
+    transition: all 0.2s ease-out;
+}
+#l2::after {
+    background-color: #222;
+    border-radius: 2px;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    content: "";
+    margin: 23px -71px;
+    transition: all 0.2s ease-out;
+}
+#l3::after {
+    background-color: #222;
+    border-radius: 2px;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    content: "";
+    margin: 23px -71px;
+    transition: all 0.2s ease-out;
+}
+
+#l4::after {
+    background-color: #222;
+    border-radius: 2px;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    content: "";
+    margin: 23px -71px;
+    transition: all 0.2s ease-out;
+}
+
+#l1:hover::after{
+    width: 6%;
+}
+#l2:hover::after{
+    width: 6%;
+}
+#l3:hover::after{
+    width: 6%;
+}
+#l4:hover::after{
+    width: 6%;
+}
+.sectionBtn{
+    margin: 2.5% 14%;
+    border: none;
+    padding: 0.5% 0%;
+    width: 100;
+    background-color: white;
+    color: black;
+    border-radius: 23px;
+    font-weight: 600;
+}
+.s1{
+    margin:2.5% 5%; 
+}
+.s2{
+    margin:2.5% 10%; 
+}.s3{
+    margin:2.5% 15%; 
+}.s4{
+    margin:2.5% 18%; 
+}.s5{
+    margin:2.5% 20%; 
+}.s6{
+    margin:2.5% 24%; 
+}
+
+
+
+.img_hob {
+    height: 40%;
+    /* margin: 20px; */
+    padding: 50px;
+    margin: auto;
+}
+.note {
+    height: 28vh;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    transform: scale(0);
+}
+.allHobby{
+    justify-content: center;
+}
+/* #cric:hover +#cric_note{
+    transform: scale(1);
+}
+#cric_note:hover +#cric_note{
+    transform: scale(1);
+} */
+
+@media only screen and (max-width: 747px) and (min-width:300px) {
+    #prf{
+        height: 10em;
+        margin: auto;
+    }
+    .paraDiv {
+        width: 100%;
+        padding: 12% 0% 0% 5%;
+    }
+
+    .skl_btn, .hby_btn{
+        margin: 8%;
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .page1_para {
+        /* width: 40%; */
+        font-size: 1em;
+        font-weight: 500;
+        border-left: 6px solid #222;
+        border-right: 6px solid #222;
+        margin: auto 3%;
+        margin-top: 9%;
+        text-align: center;
+    }
+
+    .layer1-2 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: auto;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .layer1btn{
+        margin: 6%;
+        padding: 10.6% 71%;
+    }
+    #pg2_down{
+        margin: auto;
+        width: 100%; 
+    }
+    .sectionBtn{
+        margin-top: 12%;
+        font-size: 0.8em;
+    }
+    .layer1-2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        margin: 10% auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .layer1btn {
+        margin: 5%;
+        width: 114px;
+        padding: 12.6% 0%;
+    }
+
+    @media only screen and (max-width: 747px) and (min-width:600px) {
+        #prf{
+            height: 14em;
+        }
+        .page1_para{
+            font-size: 1.2em;
+            margin-top: -10%;
+        }
+        /* .layer1-2 {
+            display: flex;
+            margin: auto;
+            margin-top: 3%;
+        } */
+        .arrows {
+            /* height: 53px; */
+            margin: -14px 0px;
+            /* border: 2px solid; */
+        }
+        .sectionBtn {
+            margin-top: 7%;
+        }
+    }
+}

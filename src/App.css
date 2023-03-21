@@ -1,0 +1,21 @@
+/* .App {
+  text-align: center;
+} */
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.flex{
+  display: flex;
+  
+}
+.flx_wrp{
+  flex-wrap: wrap;
+}
